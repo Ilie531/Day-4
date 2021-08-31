@@ -104,10 +104,10 @@ document.getElementById("test").innerHTML = text;
 
 
 let obj=["Learn", "Study", "Exercise", "Relax", "Enjoy the culture"];
-let xx = obj.length;
-let textt = "<h1> Objectives</h1>";
-for (let ii=0; ii<xx; ii++) {
-    textt+="<h2>"+obj[ii]+"</h2>";
+x = obj.length;
+text = "<h1> Objectives</h1>";
+for (let i=0; i<x; i++) {
+    text+="<h2>"+obj[i]+"</h2>";
 }
 
-document.getElementById("test2").innerHTML = textt;
+document.getElementById("test2").innerHTML = text;
