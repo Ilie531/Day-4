@@ -1,5 +1,6 @@
 body {
     counter-reset: section;
+    background-color: aqua;
   }
 
   h1 {
