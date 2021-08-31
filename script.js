@@ -94,20 +94,17 @@ for (let i=x; i<=y; i++)
 
 let places=["Alhambra", "Catedral", "Sevilla", "Cordoba", "Malaga", "Generalife"];
 let x = places.length;
-let text = "<h1> Places</h1>";
+let text = "<ol> <li>Places</li> <ol>";
 for (let i=0;i<x;i++) {
-  text += "<h2>" + places[i] + "</h2>";
+  text += "<li>" + places[i] + "</li>";
 }
-document.getElementById("test").innerHTML = text;
-
-
-
+text += "</ol>"
 
 let obj=["Learn", "Study", "Exercise", "Relax", "Enjoy the culture"];
 x = obj.length;
-text = "<h1> Objectives</h1>";
+text += "<li> Objectives</li> <ol>";
 for (let i=0; i<x; i++) {
-    text+="<h2>"+obj[i]+"</h2>";
+    text+="<li>"+obj[i]+"</li>";
 }
-
-document.getElementById("test2").innerHTML = text;
+text +="</ol>"
+document.getElementById("test").innerHTML = text;
