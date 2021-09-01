@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <div class="nav">
+    <div class="nav"> <!--This is the menu-->
         <ul>
-        <div class="dropdown">
+        <div class="dropdown"> <!--Segment-->
             <ul>
                 <h5><li><a href="home.html">Main Page</a></li></h5>
             <div class="dropdown-content">
@@ -24,7 +24,7 @@
             </div>
             </ul>
         </div>
-        <div class="dropdown">
+        <div class="dropdown"> <!--Segment-->
             <ul>
                 <h5><li><a href="#def">History</a></li></h5>
                 <div class="dropdown-content">
@@ -38,19 +38,24 @@
         </ul>
     </div>
 
-    <div class="main"><p><h1>Main Page</h1></p> <hr class="m-line">
+    <div class="main" id="home"><p><h1>Main Page</h1></p> <hr class="m-line">
             <div class="segm">Welcome to the wiki of Artalia, The Land For All!</p>
 
             </div> <!--segment o sa aiba un border, un titlu cu highlight (regula speciala in css '.segm hx {}')-->
         <div class="segm"><img src="Artalia-blur.jpg" id='photo' width="500">
             <script>let i=0;</script>
             <button type="button" onclick="i++;
-                    if (i%2==0)
+                    if (i%2==0) //script pentru a schimba poza
                         {document.getElementById('photo').src='Artalia-blur.jpg';}
                     else {document.getElementById('photo').src='Astriden_Keep.jpg';}
 
         ">Remove Blur</button>
         </div>
+    </div>
+    <div class="main" id="Calendar"><p><h1>Calendar</h1></p> <hr class="m-line">
+        <div class="segm"> </div>
+
+
     </div>
 
 </body>
