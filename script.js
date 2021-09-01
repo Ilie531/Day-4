@@ -91,7 +91,6 @@ for (let i=x; i<=y; i++)
 //<ol> <li>
 
 
-
 let places=["Alhambra", "Catedral", "Sevilla", "Cordoba", "Malaga", "Generalife"];
 let x = places.length;
 let text = "<ol> <li>Places</li> <ol>";
