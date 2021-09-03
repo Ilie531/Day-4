@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 /*
 document.getElementById. //take the id element in the HTML
 .innerHTML//change the content of text in the id
@@ -82,14 +90,6 @@ for (let i=x; i<=y; i++)
 {
     if(i%2==0) window.alert(i);
 };
-*/
-
-
-//make a content with
-//let array={ visit, eat...}
-//let places={Alhambra, Catedral,...}
-//<ol> <li>
-
 
 let places=["Alhambra", "Catedral", "Sevilla", "Cordoba", "Malaga", "Generalife"];
 let x = places.length;
@@ -107,3 +107,5 @@ for (let i=0; i<x; i++) {
 }
 text +="</ol>"
 document.getElementById("test").innerHTML = text;
+
+*/
