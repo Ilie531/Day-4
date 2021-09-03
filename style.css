@@ -20,9 +20,10 @@ Magento */
 body {
     background-color: #f2eecb;
     margin-top: 1cm;
-    font-size: 125%;
+    font-size: 120%;
     background-image:url(Artalia-blur.jpg);
     background-size:cover;
+    font: sans-serif;
 }
 
 div {
@@ -31,7 +32,11 @@ div {
 
 .main {float:left; text-indent: 3mm;}
 .m-line {align-self: center; width: 95%; color: burlywood; border-style:outset; height: 1px;}
-
+.firstHeading {
+    margin-bottom: .1em;
+    line-height: 1.2em;
+    padding-bottom: 0;
+}
 
 h1, h2, h3, h4, h5, h6 {text-transform: capitalize; margin: 0mm;}
 
